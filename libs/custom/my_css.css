@@ -233,6 +233,15 @@ pre {
   visibility: hidden;
 }
 
+.award-item p {
+  margin: 2px 0;       /* Reduces vertical spacing between lines */
+  line-height: 1.3;    /* Slightly tighter line spacing */
+}
+
+.award-item {
+  margin-bottom: 1.2em; /* Space between separate awards */
+}
+
 
 .clear {
   clear:both;
