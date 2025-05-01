@@ -242,6 +242,12 @@ pre {
   margin-bottom: 1.2em; /* Space between separate awards */
 }
 
+.desc .subline {
+  display: block;
+  margin: 2px 0;
+  line-height: 1.3;
+}
+
 
 .clear {
   clear:both;
