@@ -242,10 +242,14 @@ pre {
   margin-bottom: 1.2em; /* Space between separate awards */
 }
 
-.desc .subline {
+.desc .subgroup .subline {
   display: block;
-  margin: 0.5px 0; /* or even 0 for no extra spacing */
-  line-height: 1.1; /* tighter line spacing */
+  margin: 0;
+  line-height: 1.1; /* Adjust as needed: try 1.0 or even 0.95 */
+}
+
+.desc .subgroup {
+  margin-top: 4px; /* Optional: adds a bit of space above the group */
 }
 
 
